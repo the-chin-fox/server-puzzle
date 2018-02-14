@@ -21,7 +21,7 @@ app.use('/', index);
 app.use('/api/users', users);
 app.use('/api/signup', signup)
 app.use('/api/signin', signin)
-app.use('/images', image);
+app.use('/api/images', image);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
