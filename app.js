@@ -2,12 +2,14 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 const index = require('./routes/index');
 const users = require('./routes/users');
+const signup = require('./routes/signup');
+const signin = require('./routes/signin')
 const image = require('./routes/image');
+mongoose.connect('mongodb://localhost/tespuzzle');
 const app = express();
-mongoose.connect("mongodb://chin-puzzle:chin-puzzle@ds235768.mlab.com:35768/the-chin-puzzle")
 
 
 app.use(logger('dev'));
@@ -16,9 +18,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
-app.use('/images', image);
-
+app.use('/api/users', users);
+app.use('/api/signup', signup)
+app.use('/api/signin', signin)
+app.use('/api/images', image);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
