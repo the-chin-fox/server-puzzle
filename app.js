@@ -7,11 +7,11 @@ const index = require('./routes/index');
 const users = require('./routes/users');
 const signup = require('./routes/signup');
 const signin = require('./routes/signin')
+const image = require('./routes/image');
 mongoose.connect('mongodb://localhost/tespuzzle');
 const app = express();
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -21,6 +21,7 @@ app.use('/', index);
 app.use('/api/users', users);
 app.use('/api/signup', signup)
 app.use('/api/signin', signin)
+app.use('/images', image);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
