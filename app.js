@@ -2,10 +2,12 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-
+const mongoose = require('mongoose')
 const index = require('./routes/index');
 const users = require('./routes/users');
-
+const signup = require('./routes/signup');
+const signin = require('./routes/signin')
+mongoose.connect('mongodb://localhost/tespuzzle');
 const app = express();
 
 // uncomment after placing your favicon in /public
@@ -16,8 +18,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
-
+app.use('/api/users', users);
+app.use('/api/signup', signup)
+app.use('/api/signin', signin)
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
