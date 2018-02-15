@@ -9,9 +9,10 @@ const signup = require('./routes/signup');
 const signin = require('./routes/signin')
 const image = require('./routes/image');
 const app = express();
+const cors = require('cors')
 mongoose.connect("mongodb://chin-puzzle:chin-puzzle@ds235768.mlab.com:35768/the-chin-puzzle")
 
-
+app.use(cors())
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
