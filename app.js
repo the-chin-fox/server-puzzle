@@ -9,8 +9,9 @@ const signup = require('./routes/signup');
 const signin = require('./routes/signin')
 const image = require('./routes/image');
 const leaderboard = require('./routes/leaderboard');
-mongoose.connect('mongodb://localhost/tespuzzle');
+
 const app = express();
+mongoose.connect("mongodb://chin-puzzle:chin-puzzle@ds235768.mlab.com:35768/the-chin-puzzle")
 
 
 app.use(logger('dev'));
