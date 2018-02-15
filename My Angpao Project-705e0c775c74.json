@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-angpao-project",
+  "private_key_id": "705e0c775c748d8cab46554f88f3f6e58a318c1c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDq5wQAzIm43LQ3\neNl4Ywk2t+EPpljjxeBlbsY2g+yGBSreiyjpuvPK6RkdBQpkpzv1DeGLyqHUqBBn\nrLPlmbEupQbmYyLFaw3Y2ZrcgXnTG3xVHIWly2L4t65jHmAM3IGbZDFnc50inxki\n9XTaTdr5D2PBpZN2d1rGHTWja4M5OHyCd7yF7W/WJ4C0NAN1dJlrMqi51Bb6oupP\nwMaHTU3VVUJMXDNtLNjRnjT6z/Dh8zRstvxO1PNV7TCTgw2ZzBmkS//qFTClBUSA\ncvfjG35txTEQr55U/+47Kv6uEey+b8lOgBTiqADY7boBTPdzZ/bI64cOvjNajafS\nYyJe1QgNAgMBAAECggEAZzhIPAmk4wSodE+4T/xEyjSWwwe3u67x4eCBXOcvgdy3\nb776pWovQpSXIndaj8wkvpPw7jqGTinju4raKiQVBYgitg4N824NUaKdOBP08lz7\nj3LPD4GF5gDgslFgp4YltaCbTPgyrkn3A7OUO3FGrXajwS3+1GmyC6g+L6dIrFVc\nXKiCIDgH+2WvSTLNvbfTitLZttdFXsdzFJbPBN11pU860xdD9z5A7EZ2ygHMkbdx\nF12ataZFZf/9qZOnBa+yO3Ttrp7MGg+44M0osIiPQJgIwwrlUYQTYOfVnk1FRrBO\nmjRZsMykMyJOAXzxvcs/4j1feQ47Wk/8RcJ1HaAnSQKBgQD7VDxBWB4GKQo/osq4\nQkR37tPDEWy8NWrk7rQuWQLgbzgleOJdC01x2p1s9AWSKmM+N95Es5Vp1hNsNwIn\ngS5SN5IBNQ1hcvwKM6rlnwS/TTvOBH3jno3hBmnSMKzwS8FEcnoBcUQDSDmol4QT\nMvkgkHsk373NboNw2GEuUFJhLwKBgQDvRKBMicMJbP0DxqHJf1bgupf/njCX5OlZ\noiy5gGhhZCZ2klnBM/ceMM7dv5ADnybTx3Iz5/lD39hP6aOv4ESr22P83LWA/ue5\nReIIgg4t06YWhGa1JOlyjjUx6UUF8TyGuMJtgE3h3hdIVZ1pNuB3IARqBTSqMEgZ\nKdguwyJDgwKBgQCGYhn9zoHvRU5njEHcmAJIJnkwGkcLs3w+gKvzBEEXhCB/WM2g\ndoSoVf5K3YeFCgkaoYDFN0iy2HZ2LEuIl/gOmgwFfTp0WqkNQ2cjdA1zxHYvyBMP\n/B1crrMyYjh2G+txD8zQrKFzJ9E8phdGtMCketx9cOzpxSee1PPRcb06nQKBgCy7\n+vB0bUes3d0/3O3MZhTcLiD3lYRAozRD8vK3xEw5KkvO7wMFUTWO0I57C1TyA5Ni\n3cJAo8UB6/J870Kpvo0XFqmnJjQ49GAaZblLf5Un1gytsno5rX/igKWVRHdo8/UI\nRCmu7GDHYjj+8NBEF1GOZeTglkkff8tcnHOZviU7AoGAXYBxwYiMexX+colk1/o3\nKE45aQ8wJsYhQ5H2XFhm/TOndWoF4ItIQVrFLjTfMTMxlbSdrQUTk3v9tpBVU+OT\nwLsoZIsi4Hs+YXG7NO4d5aAfv/PEAP8hEiQ3cuxmssB7ciFHadJdh1sBJe8d3R6m\n+31m/mWWHxIt/gnP/Uz2qfY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chin-puzzle@my-angpao-project.iam.gserviceaccount.com",
+  "client_id": "109591141179461080159",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chin-puzzle%40my-angpao-project.iam.gserviceaccount.com"
+}
