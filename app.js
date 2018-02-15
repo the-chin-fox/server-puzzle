@@ -8,6 +8,8 @@ const users = require('./routes/users');
 const signup = require('./routes/signup');
 const signin = require('./routes/signin')
 const image = require('./routes/image');
+const leaderboard = require('./routes/leaderboard');
+
 const app = express();
 mongoose.connect("mongodb://chin-puzzle:chin-puzzle@ds235768.mlab.com:35768/the-chin-puzzle")
 
@@ -22,6 +24,7 @@ app.use('/api/users', users);
 app.use('/api/signup', signup)
 app.use('/api/signin', signin)
 app.use('/api/images', image);
+app.use('/api/leaderboard', leaderboard);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
